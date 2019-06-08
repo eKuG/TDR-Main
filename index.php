@@ -107,6 +107,7 @@ footer a:hover {
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
 
   </ol>
   <div class="carousel-inner">
@@ -126,7 +127,10 @@ footer a:hover {
       <img class="d-block w-100" src="b.jpg" alt="Fifth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="im1.jpg" alt="Ninth slide">
+      <img class="d-block w-100" src="im1.jpg" alt="sixth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="f.jpg" alt="Seventh slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
