@@ -7,11 +7,19 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 
     <title>Team Defianz Racing</title>
     <style>
+  body,html{
+    font-family: 'Playfair Display', serif;
+  }
     .color {
       background: #FFFFFF;
+    }
+    .carousel.slide.margin{
+      width: 600px;
+      margin-left: 35%;
     }
     .png {
       height: 20px;
@@ -48,7 +56,16 @@ footer a:hover {
   <img src = "unnamed.png" style ="
   display: block;
     margin-left: 100%;   
-    width: 60%;">    
+    width: 60%;
+    float: left">    
+  </div>
+  <div id = "tagline" style ="
+    position: absolute;
+    padding: 15px;
+    color: red; ">
+  <h1><Strong>TEAM
+  <br> DEFIANZ
+  <br> RACING</strong></h1>
   </div>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,7 +93,7 @@ footer a:hover {
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">The Cars</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="cars.php">2003-2015</a>
+      <a class="dropdown-item" href="cars.php">Cars over the Years</a>
     </div>
   </li>
  
@@ -92,8 +109,12 @@ footer a:hover {
     <a class="nav-link" href="sponsors.php">Our Sponsors</a>
   </li>
 
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.ketto.org/fundraiser/defianz">Donate</a>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Donate</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="donate.php">Directly Contribute</a>
+      <a class="dropdown-item" href="https://www.ketto.org/fundraiser/defianz">Contribute over Ketto</a>
+    </div>
   </li>
   
   
@@ -107,31 +128,28 @@ footer a:hover {
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
 
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="Team.jpg" alt="First slide">
+      <img class="d-block w-100" src="D1.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="im2.jpg" alt="Second slide">
+      <img class="d-block w-100" src="D2.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="im3.jpg" alt="Third slide">
+      <img class="d-block w-100" src="D3.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="a.jpg" alt="Fourth slide">
+      <img class="d-block w-100" src="D4.jpg" alt="Fourth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="b.jpg" alt="Fifth slide">
+      <img class="d-block w-100" src="D5.jpg" alt="Fifth slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="im1.jpg" alt="sixth slide">
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="f.jpg" alt="Seventh slide">
-    </div>
+
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -148,13 +166,10 @@ footer a:hover {
     
     <div class="card-body">
       <h5 class="card-title">OUR VISION</h5>
-      <p class="card-text">TEAM DEFINZ RACING SEEKS TO INCULCATE LEARNING AND INNOVATION AMONG BUDDING ENGINEERS. TO DO SO THE TEAM STRIVES TOWARD PROFESSIONAL ENGINEERING PRACTICES
-        AND ACTIVE KNOWLEDGE TRANSFER AMONG STUDENT</p>
-        <p>
-        FOUND IN 2003, TEAM DEFIANZ RACING HAS ASIA’S UNDISPUTEDLY THE BEST AND LONGEST-LIVED LEGACY. WE WERE ASIA’S FIRST TEAM TO UNDERTAKE THIS PROJECT AND HAVE BROUGHT GLORY TO THE NATION SEVERAL TIMES. THE TEAM HAS A WIDE-RANGING ALUMNI NETWORK AND CURRENTLY HAS 30 ACTIVE MEMBERS. 
+      <p class="card-text">We are Team Defianz Racing, Asia's oldest and India's most prominent formula student team. We are a group of 30 students from Delhi Technological University, working hard in designing and fabricating an open wheel formula 1 style race car each year and participate in various Formula Student competitions across the globe.
 </p>
 <p>
-THE TEAM ALSO WORKS IN THE DOMAIN OF ORGANIZATIONAL DESIGN AND DEVELOPMENT AND BELIEVES IN A HIERARCHY-BASED CULTURE. CHANGE IS THE ONLY CONSTANT AND HENCE WITH EVOLUTION, OUR TEAM’S ORGANIZATIONAL ENVIRONMENT IS ALSO ALWAYS EVOLVING
+The team has been successfully evolving since 2003 and currently, we are number 1 in India according to the official worldwide rankings. In the last season, the team participated in the national competition Formula Bharat 2018 and came overall second. We were also ranked, for the second consecutive year, the best Asian team at Formula Student UK 2017, world’s largest engineering design competition at the college level, at Silverstone Circuit, Towcester, UK.
 </p>
         
       
@@ -164,9 +179,11 @@ THE TEAM ALSO WORKS IN THE DOMAIN OF ORGANIZATIONAL DESIGN AND DEVELOPMENT AND B
     
     <div class="card-body">
       <h5 class="card-title"> OUR MISSON</h5>
-      <p class="card-text">TO BE THE BEST MAN IN INDIA AND TO BE RECOGNIZED GLOBALLY  AS FORCE TO BE RECKONED WITH.</p>
+      <p class="card-text">To be the best man in India and to be recognized globally as force to be reckoned with.
+</p>
       <p>
-      TO BE AN ORGANISATION WHICH CAN PUSH INDIVIDUALS TO THEIR LIMITS AND INCULCATE IN THEM THE VALUES OF PERSEVERANCE, HARD WORK, RESEARCH, DESIGN, DEVELOPMENT, PASSION, AND COMMITMENT.      </p>      
+      To be an organisation which can push individuals to their limits and inculcate in them the values of perseverance, hard work, research, design, development, passion, and commitment.
+</p>
     </div>
   </div>
 
@@ -180,7 +197,7 @@ THE TEAM ALSO WORKS IN THE DOMAIN OF ORGANIZATIONAL DESIGN AND DEVELOPMENT AND B
 
 </footer>
 <div class="footer-copyright text-center py-3 ft">© 2019 Copyright:
-    <a href="#">Team Definz Racing</a>
+    <a href="#">Team Defianz Racing</a>
  </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

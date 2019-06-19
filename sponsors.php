@@ -49,7 +49,7 @@ footer a:hover {
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.php">TEAM DEFINZ RACING</a>
+  <a class="navbar-brand" href="index.php">TEAM DEFIANZ RACING</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -67,22 +67,21 @@ footer a:hover {
     <a class="nav-link" href="index.php">About</a>
   </li>
   <!-- <li class="nav-item">
-    <a class="nav-link" href="joinUs.php">Join Us</a>
+    <a class="nav-link " href="joinUs.php">Join Us</a>
   </li> -->
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Past Performances</a>
+    <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Past Performances</a>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="fsuk.php">Performance in FSUK 2017</a>
-      <a class="dropdown-item" href="fb.php">Performance in Formaula Bharat 2018</a>
+      <a class="dropdown-item active" href="fb.php">Performance in Formaula Bharat 2018</a>
     </div>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">The Cars</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="cars.php">2003-2015</a>
+      <a class="dropdown-item" href="cars.php">Cars over the Years</a>
     </div>
   </li>
- 
   <li class="nav-item">
     <a class="nav-link" href="media.php">Media</a>
   </li>
@@ -90,13 +89,15 @@ footer a:hover {
     <a class="nav-link" href="awards.php">Awards</a>
   </li>
 
-
   <li class="nav-item">
-    <a class="nav-link active" href="sponsors.php">Our Sponsors</a>
+    <a class="nav-link" href="sponsors.php">Our Sponsors</a>
   </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.ketto.org/fundraiser/defianz">Donate</a>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Donate</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="donate.php">Directly Contribute</a>
+      <a class="dropdown-item" href="https://www.ketto.org/fundraiser/defianz">Contribute over Ketto</a>
+    </div>
   </li>
   
 
@@ -109,107 +110,13 @@ footer a:hover {
     <p class="card-text txt">Dealing with the dearth of funds, technical setbacks due to absence of required technology and cultural differences, the team has been constantly evolving since. Apart from success at our competitions, we have recieved much accreditation here at home. 
     We display our cars of prominent malls and auto exhibitions including those at Pragati Maidan and the Expo Mart, Noida, which is also in the best interest of our sponsors. The team is also a Technological Incubator under a government university, therefore sponsoring 
     the team qualifies as an act of CSR under point(ix) of the CSR Act Notification.</p>
-  </div>
-</div>
-<div class="card-group">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">PLATINUM SPONSORS</h5>
-      <p class="card-text">Above 10 lakhs</p>
-      
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">GOLD SPONSORS</h5>
-      <p class="card-text">Above 5 lakhs</p>
-      
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">SILVER SPONSORS</h5>
-      <p class="card-text">Above 3 lakhs</p>
-     
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">BRONZE SPONSORS</h5>
-      <p class="card-text">Below 2 lakhs</p>
+    <p>
+      If Interested to Sponsor our Team for future events please refer to the Brochure attached.</p>
+      <a href="brochure.pdf" download>Sponsorship Brochure</a>
 
-    </div>
   </div>
 </div>
-<table class="table tb">
-  <thead>
-    <tr>
-      <th scope="col">DELIVERABLES</th>
-      <th scope="col">BRONZE</th>
-      <th scope="col">SILVER</th>
-      <th scope="col">GOLD</th>
-      <th scope="col">PLATINUM</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <td>Logo on car</td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  </tr>
-  <tr>
-  <td>Logo on Apparel</td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  </tr>
-  <tr>
-  <td>Online Publicity</td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  </tr>
-  <tr>
-  <td>Publicity at Auto <br> Exp/ FSB/ FSUK</td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  </tr>
-  <tr>
-  <td>Publicity at <br> University Fest</td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  </tr>
-  <tr>
-  <td>Monthly Updates</td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  </tr>
-  <tr>
-  <td>Car Theme</td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  </tr>
-  <tr>
-  <td>Car And Team <br> Availability</td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "wrong.png" class = "im"></td>
-  <td><img src = "tick.png" class = "im"></td>
-  </tr>
-  </tbody>
-</table>
+
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
 <footer>
   <a href="https://www.facebook.com/teamdefianzracing/"><i class="fa fa-facebook"></i></a>
@@ -219,7 +126,7 @@ footer a:hover {
 
 </footer>
 <div class="footer-copyright text-center py-3 ft">© 2019 Copyright:
-    <a href="#">Team Definz Racing</a>
+    <a href="#">Team Defianz Racing</a>
  </div>
 
 

@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Team Definz Racing</title>
+    <title>Team Defianz Racing</title>
     <style>
      .color {
       background: #F8F9FA;
@@ -45,7 +45,7 @@ footer a:hover {
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.php">TEAM DEFINZ RACING</a>
+  <a class="navbar-brand" href="index.php">TEAM DEFIANZ RACING</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -68,14 +68,14 @@ footer a:hover {
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Past Performances</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item active" href="fsuk.php">Performance in FSUK 2017</a>
-      <a class="dropdown-item" href="fb.php">Performance in Formaula Bharat 2018</a>
+      <a class="dropdown-item" href="fsuk.php">Performance in FSUK 2017</a>
+      <a class="dropdown-item active" href="fb.php">Performance in Formaula Bharat 2018</a>
     </div>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">The Cars</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="cars.php">2003-2015</a>
+      <a class="dropdown-item" href="cars.php">Cars over the Years</a>
     </div>
   </li>
   <li class="nav-item">
@@ -88,9 +88,12 @@ footer a:hover {
   <li class="nav-item">
     <a class="nav-link" href="sponsors.php">Our Sponsors</a>
   </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.ketto.org/fundraiser/defianz">Donate</a>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Donate</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="donate.php">Directly Contribute</a>
+      <a class="dropdown-item" href="https://www.ketto.org/fundraiser/defianz">Contribute over Ketto</a>
+    </div>
   </li>
 
 </ul>
@@ -165,7 +168,7 @@ footer a:hover {
 
 </footer>
 <div class="footer-copyright text-center py-3 ft">© 2019 Copyright:
-    <a href="#">Team Definz Racing</a>
+    <a href="#">Team Defianz Racing</a>
  </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
